@@ -8,13 +8,7 @@ Minimal unattend.xml image capture framework supporting the following Windows Op
 - Windows Server 2008 R2
 - Windows Server 2012 R2
 - Windows Server 2016
-=======
-Windows 7
-Windows 8.1
-Windows 10
-Windows Server 2008 R2
-Windows Server 2012 R2
-Windows Server 2016
+
 
 Verified using Enterprise version of client OS and Datacenter version of server OS in vCenter 5.5 using ESXi hosts 
 5.5 U3 or greater.  The template files can be used to create custom local admin account or enable built-in admin 
