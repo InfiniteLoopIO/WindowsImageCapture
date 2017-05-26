@@ -24,7 +24,7 @@
                 </RunSynchronousCommand>
                 <RunSynchronousCommand wcm:action="add">
                     <Order>2</Order>
-                    <Path>reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\Activation&quot; /v Manual /t REG_DWORD /d 1 /f</Path>
+                    <Path>reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\Activation&quot; /v Manual /t REG_DWORD /d 1 /f</Path>
                     <Description>Disable AutoActivation</Description>
                 </RunSynchronousCommand>
                 <RunSynchronousCommand wcm:action="add">
@@ -33,7 +33,7 @@
                     <Description>Enable Ping Response</Description>
                 </RunSynchronousCommand>
                 <RunSynchronousCommand wcm:action="add">
-                    <Path>reg add &quot;HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server&quot; /v fDenyTSConnections /t REG_DWORD /d 0 /f</Path>
+                    <Path>reg add &quot;HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server&quot; /v fDenyTSConnections /t REG_DWORD /d 0 /f</Path>
                     <Description>Enable Remote Desktop</Description>
                     <Order>4</Order>
                 </RunSynchronousCommand>
